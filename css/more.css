@@ -13,6 +13,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    cursor: pointer;
 }
 
 .more__btn .more__btn-title {
@@ -37,8 +38,14 @@
 }
 
 .suggestion .suggestion__icon{
-    background-color: rgb(228, 228, 18);
+    background-color: #fce006;
     padding: 8px;
     border-radius: 10px;
-    
+    justify-content: center;
+    align-items: center;
+}
+
+.suggestion__icon i {
+    font-size: 28px;
+    color: white;
 }
